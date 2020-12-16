@@ -1,26 +1,25 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import React, { useState, useEffect } from "react";
+import "./App.css";
+import Question from "./components/Question";
+import localData from "./questions.json";
 
-function App () {
+const App = () => {
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [questionsData, setQuestionsData] = useState({});
+  const nextQuestion = () => setCurrentQuestion(currentQuestion + 1);
+
+  useEffect(() => {
+    setQuestionsData(JSON.parse(JSON.stringify(localData)));
+    console.log(questionsData);
+  }, []);
+
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">
+      <Question
+        data={questionsData}
+        currentQuestion={currentQuestion}></Question>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
