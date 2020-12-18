@@ -2,6 +2,7 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -9,6 +10,7 @@
 .question {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .question h1 {
@@ -31,10 +33,84 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.question .answer-wrapper button {
+.question .answer-wrapper input {
   width: 200px;
   height: 50px;
   margin-right: 10px;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.question .answer-wrapper .correct {
+  background-color: black;
+  color: white;
+}
+.question .star-wrapper {
+  margin-top: 10px;
+}
+
+.question .star-wrapper .star img {
+  height: 20px;
+}
+
+.question-counter {
+  width: 100vw;
+  height: 10px;
+  background-color: white;
+  top: 0;
+  position: fixed;
+}
+
+.question-counter .counter {
+  height: 100%;
+  background-color: gray;
+}
+
+.score-counter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  width: 80vw;
+  overflow: hidden;
+}
+
+.score-counter .text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.score-counter .progress-bar {
+  width: auto;
+  height: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid black;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.progress-bar-second {
+  margin-top: 0px !important;
+}
+
+.score-counter .progress-bar .progress-bar-correct {
+  height: 20px;
+  background-color: rgb(73, 70, 70);
+  position: absolute;
+  z-index: 3;
+  overflow: hidden;
+}
+.score-counter .progress-bar .progress-bar-max {
+  height: 20px;
+  background-color: rgb(128, 120, 120);
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+.score-counter .progress-bar .progress-bar-low {
+  height: 20px;
+  background-color: black;
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
 }

@@ -24,7 +24,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Books",
+    "category": "Entertainment Books",
     "type": "multiple",
     "difficulty": "hard",
     "question": "What is Ron Weasley's middle name.",
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Comics",
+    "category": "Entertainment Comics",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Who is the creator of the comic series The Walking Dead.",
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Board Games",
+    "category": "Entertainment Board Games",
     "type": "multiple",
     "difficulty": "medium",
     "question": "At the start of a standard game of the Monopoly if you throw a double six which square would you land on.",
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Video Games",
+    "category": "Entertainment Video Games",
     "type": "multiple",
     "difficulty": "hard",
     "question": "In World of Warcraft lore who organized the creation of the Paladins.",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Video Games",
+    "category": "Entertainment Video Games",
     "type": "boolean",
     "difficulty": "medium",
     "question": "In the game Subnautica a Cave Crawler will attack you.",
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Japanese Anime %26 Manga",
+    "category": "Entertainment Japanese Anime  Manga",
     "type": "multiple",
     "difficulty": "medium",
     "question": "What is the name of the device that allows for infinite energy in the anime Dimension W.",
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Video Games",
+    "category": "Entertainment Video Games",
     "type": "multiple",
     "difficulty": "medium",
     "question": "What is the name of Cream the Rabbit's mom in the Sonic the Hedgehog series.",
@@ -176,7 +176,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Television",
+    "category": "Entertainment Television",
     "type": "multiple",
     "difficulty": "hard",
     "question": "Which of these voices wasn't a choice for the House AI in The Simpsons Treehouse of Horror short House of Whacks.",
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Music",
+    "category": "Entertainment Music",
     "type": "multiple",
     "difficulty": "medium",
     "question": "From which album is the Gorillaz song On Melancholy Hill featured in.",
@@ -210,7 +210,7 @@
     ]
   },
   {
-    "category": "Entertainment%3A Video Games",
+    "category": "Entertainment Video Games",
     "type": "multiple",
     "difficulty": "medium",
     "question": "In Left 4 Dead which campaign has the protagonists going through a subway in order to reach a hospital for evacuation.",
